@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    {{- partial "head.html" . -}}
+    <body class="dark:bg-gray-800">
+        {{- partial "header.html" . -}}
+       
+        {{- block "main" . }}{{- end }}
+    
+        {{- partial "footer.html" . -}}
+
+        {{ $script := resources.Get "js/main.js" | fingerprint }}
+        <script src="{{ $script.RelPermalink | relURL }}"></script>
+
+        {{- partial "script.html" . -}}
+    </body>
+</html>

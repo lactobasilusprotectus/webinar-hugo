@@ -1,0 +1,11 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "WEBINAR LAB IR"
+theme = "webinar"
+googleAnalytics = "UA-145895059-1"
+
+[params]
+    Description = "webinar laboratorium information retrieval"
+    titleWebinar = "Webinar Information Retrieval"
+    subTitleWebinar = "Kiat-kiat Suksess Di Dunia Kerja"
+    penjelasan = "Webinar yang membahas tuntas masalah yang sering di hadapin fresh graduate pada saat akan melamar kerja"
