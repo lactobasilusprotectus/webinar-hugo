@@ -1,13 +1,19 @@
 items:
-  - kegiatan: Opening
-    jam: 10:30
+  - kegiatan: Registrasi
+    jam: 08:30
+    presenter: NONE
+  - kegiatan: Pembukaan
+    jam: 08:40
+    presenter: Kepala dan Koor Lab
+  - kegiatan: Pendahuluan
+    jam: 09:00
     presenter: MC
-  - kegiatan: Opening
-    jam: 10:30
-    presenter: MC
-  - kegiatan: Opening
-    jam: 10:30
-    presenter: MC
-  - kegiatan: Opening
-    jam: 10:30
-    presenter: MC
+  - kegiatan: Materi
+    jam: 09:10
+    presenter: Pembicara
+  - kegiatan: Tanya Jawab
+    jam: 10:50
+    presenter: MC dan Pembicara
+  - kegiatan: Penutupan
+    jam: 11:30
+    presenter: MC 
